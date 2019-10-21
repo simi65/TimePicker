@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+         getSupportActionBar().setDisplayShowEnabled(true);
         timePicker = findViewById(R.id.get_time);
         Output = findViewById(R.id.output);
         SetChange = findViewById(R.id.set_waktu);
